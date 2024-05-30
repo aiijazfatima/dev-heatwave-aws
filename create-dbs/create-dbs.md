@@ -1,8 +1,8 @@
-# Create MySQL HeatWave DB System  and add a HeatWave Cluster
+# Create Heatwave DB System  and add a HeatWave Cluster
 
 ## Introduction
 
-In this lab you will create a MySQL HeatWave DB System on AWS and add a HeatWave cluster to it.
+In this lab you will create a HeatWave DB System on AWS and add a HeatWave cluster to it.
 
 _Estimated Time:_ 15 minutes
 
@@ -10,16 +10,16 @@ _Estimated Time:_ 15 minutes
 
 In this lab, you will be guided through the following tasks:
 
-- Signin to MySQL HeatWave on AWS Service console page.
-- Create a MySQL HeatWave DB System and add on a HeatWave Cluster.
+- Signin to Heatwave on AWS Service console page.
+- Create a Heatwave DB System and add on a HeatWave Cluster.
 
 ### Prerequisites
 
-- A MySQL HeatWave on AWS Trial or Paid Cloud Account. If you are a first-time user, follow the  [Sign Up](https://dev.mysql.com/doc/heatwave-aws/en/heatwave-aws-sign-procedure.html) instructions.
+- A Heatwave on AWS Trial or Paid Cloud Account. If you are a first-time user, follow the  [Sign Up](https://dev.mysql.com/doc/heatwave-aws/en/heatwave-aws-sign-procedure.html) instructions.
 
-## Task 1: Signin to MySQL HeatWave on AWS Service console page
+## Task 1: Signin to Heatwave on AWS Service console page
 
-1. Go to the [MySQL HeatWave Console](https://cloud.mysql.com).
+1. Go to the [Heatwave Console](https://cloud.mysql.com).
 
 2. Enter your **Cloud Account Name** then click the **Continue** button.
     ![welcome](./images/welcome.png "welcome")
@@ -27,12 +27,12 @@ In this lab, you will be guided through the following tasks:
 3. Enter the OCI account credentials. This is your User Name and Password.  Click the **Sign In** button.
     ![oci info](./images/oci-info.png "oci info")
 
-4. Once you are logged in, you will see the MySQL HeatWave Page. click the **Create MySQL DB System** button.
+4. Once you are logged in, you will see the Heatwave Page. click the **Create MySQL DB System** button.
     ![mds console](./images/mds-console.png "mds console")
 
-## Task 2: Create a MySQL HeatWave DB System and add on a HeatWave Cluster
+## Task 2: Create a Heatwave DB System and add on a HeatWave Cluster
 
-1. Create a MySQL DB system, MyDBSystem, which is the logical container for MySQL HeatWave instances, and note the administrator username and password as you will need it to connect to the DB System
+1. Create a MySQL DB system, MyDBSystem, which is the logical container for Heatwave instances, and note the administrator username and password as you will need it to connect to the DB System
 
     ![create db name](./images/create-db-name.png "create db name")
 
@@ -40,7 +40,7 @@ In this lab, you will be guided through the following tasks:
 
     ![create db config](./images/create-db-config.png "create db config")
 
-3. We will later import sample data from Amazon S3 into this DB System. To be able to import data to a DB System later, specify an IAM role with correct policies and trust relationships required to access Amazon S3. The IAM role grants exclusive access to the data on Amazon S3 to specific MySQL HeatWave DB Systems, providing tighter security, which is suited for enterprise production workloads.
+3. We will later import sample data from Amazon S3 into this DB System. To be able to import data to a DB System later, specify an IAM role with correct policies and trust relationships required to access Amazon S3. The IAM role grants exclusive access to the data on Amazon S3 to specific Heatwave DB Systems, providing tighter security, which is suited for enterprise production workloads.
 
     - Oracle has pre-created an IAM role with required policies and permissions. Copy and paste the following code in the IAM roles field:
 
@@ -70,7 +70,7 @@ You may now **proceed to the next lab**.
 
 ## Learn More
 
-- [MySQL HeatWave on AWS Service Guide](https://dev.mysql.com/doc/heatwave-aws/en/)
+- [Heatwave on AWS Service Guide](https://dev.mysql.com/doc/heatwave-aws/en/)
 
 - [MySQL Database Documentation](https://dev.mysql.com/)
 
